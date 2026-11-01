@@ -1,0 +1,111 @@
+{
+  "Action": {
+    "family": "ETS",
+    "model": "ETS(error=add, trend=add, damped=False, seasonal=None)",
+    "cfg": {
+      "error": "add",
+      "trend": "add",
+      "damped": false,
+      "seasonal": null
+    },
+    "model_df": 0,
+    "burn_in": 0,
+    "val_RMSE": 0.33447843854369114
+  },
+  "Adventure": {
+    "family": "SARIMA",
+    "model": "SARIMA(0,1,0)(0,0,1,12), trend=n",
+    "cfg": {
+      "order": [
+        0,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        0,
+        1,
+        12
+      ],
+      "trend": "n"
+    },
+    "model_df": 1,
+    "burn_in": 1,
+    "val_RMSE": 0.28855756230772456
+  },
+  "Comedy": {
+    "family": "SARIMA",
+    "model": "SARIMA(0,0,3)(0,1,1,12), trend=n",
+    "cfg": {
+      "order": [
+        0,
+        0,
+        3
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "trend": "n"
+    },
+    "model_df": 4,
+    "burn_in": 12,
+    "val_RMSE": 0.5149297149846699
+  },
+  "Drama": {
+    "family": "ETS",
+    "model": "ETS(error=add, trend=add, damped=False, seasonal=None)",
+    "cfg": {
+      "error": "add",
+      "trend": "add",
+      "damped": false,
+      "seasonal": null
+    },
+    "model_df": 0,
+    "burn_in": 0,
+    "val_RMSE": 0.9035396045636891
+  },
+  "Romance": {
+    "family": "ETS",
+    "model": "ETS(error=add, trend=add, damped=False, seasonal=None)",
+    "cfg": {
+      "error": "add",
+      "trend": "add",
+      "damped": false,
+      "seasonal": null
+    },
+    "model_df": 0,
+    "burn_in": 0,
+    "val_RMSE": 0.2216068446104032
+  },
+  "Sci-Fi": {
+    "family": "ETS",
+    "model": "ETS(error=mul, trend=add, damped=False, seasonal=None)",
+    "cfg": {
+      "error": "mul",
+      "trend": "add",
+      "damped": false,
+      "seasonal": null
+    },
+    "model_df": 0,
+    "burn_in": 0,
+    "val_RMSE": 0.274047294104737
+  },
+  "Thriller": {
+    "family": "ARIMA",
+    "model": "ARIMA(2,1,0), trend=n",
+    "cfg": {
+      "order": [
+        2,
+        1,
+        0
+      ],
+      "trend": "n"
+    },
+    "model_df": 2,
+    "burn_in": 1,
+    "val_RMSE": 0.3298988260781104
+  }
+}

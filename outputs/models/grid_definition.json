@@ -1,0 +1,18 @@
+{
+  "selection_metric": "validation RMSE (ties broken by AIC)",
+  "seasonal_threshold": 0.3,
+  "seasonal_models_used": {
+    "Action": false,
+    "Adventure": true,
+    "Comedy": true,
+    "Drama": false,
+    "Romance": false,
+    "Sci-Fi": false,
+    "Thriller": false
+  },
+  "ETS": "error in {add, mul} x (trend, damped) in {(none,F),(add,F),(add,T)} x seasonal in {none, add if supported}",
+  "ARIMA": "p in 0..2, d in {0,1}, q in 0..2; constant only when d=0",
+  "SARIMA": "p,q in {0,1}; (d,D) in {(0,0),(0,1),(1,0),(1,1)}; P,Q in {0,1}; s=12; constant only when d=D=0",
+  "configs_per_genre_nonseasonal": 38,
+  "configs_per_genre_seasonal": 300
+}

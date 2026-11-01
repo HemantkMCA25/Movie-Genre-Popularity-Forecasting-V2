@@ -1,0 +1,8 @@
+,seasonal_strength,seasonal_models_used
+Action,0.229,False
+Adventure,0.349,True
+Comedy,0.314,True
+Drama,0.222,False
+Romance,0.101,False
+Sci-Fi,0.244,False
+Thriller,0.268,False
